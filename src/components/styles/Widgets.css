@@ -1,0 +1,37 @@
+.widgets{
+   
+    flex: 0.2;
+    position: sticky;
+    top: 180px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    background-color: white;
+    height: fit-content;
+}
+.widget_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.widget_header >h3{
+    font-size: 16px;
+    font-weight: 400;
+}
+.article{
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.article:hover{
+    background-color: whitesmoke;
+}
+.article-left{
+    margin-right: 5px;
+    color: #0177b7;
+}
+.article_right{
+
+}

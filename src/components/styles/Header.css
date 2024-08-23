@@ -1,0 +1,59 @@
+.header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 0.1px solid lightgray;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: white;
+}
+.header_left{
+    display: flex;
+    padding: 10px;
+    
+    align-items: center;
+
+}
+.search-con{
+    padding: 10px;
+    display: flex;
+    border-radius: 5px;
+    height: 22px;
+    color: grey;
+    align-items: center;
+    background-color: whitesmoke;
+}
+.search-con > input{
+    outline: none;
+    border: none;
+    background: none;
+}
+.header_left .linkedin-icon{
+    font-size:50px;
+}
+.header_right{
+    display: flex;
+    justify-content: space-evenly;
+}
+.updateprofile{
+    width: 350px;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.profilepic{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: self-end;
+}
+.profilepic > p{
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}

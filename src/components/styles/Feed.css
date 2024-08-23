@@ -1,0 +1,120 @@
+.post{
+    flex: 0.6;
+    margin: 25px 20px;
+}
+.post_inputContainer{
+    background-color: white;
+    padding: 10px;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.post_input{
+    border: 1px solid lightgrey;
+    border-radius: 30px;
+    display: flex;
+    padding: 10px;
+    color: grey;
+    padding-left: 15px;
+}
+.post_input:hover{
+    background-color: whitesmoke;
+}
+.post_input >form{
+    display: flex;
+    width: 100%;
+}
+.post_input >form > input{
+    border: none;
+    flex: 1;
+    background: none;
+    margin-left: 10px;
+    outline-width: 0;
+    font-weight: 600;
+}
+.post_input >form > .sendpost{
+    display: none;
+}
+
+.post_inputOptions{
+    margin-top: 10px;
+    display: flex;
+    padding: 5px;
+    justify-content: space-around;
+}
+.closebtn{
+    border: none;
+    background-color: #ffffff;
+    text-align: end;
+    cursor: pointer;
+    
+}
+.uploadtitle-btn{
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.uploadtitle-btn > h3{
+    font-size: 16px;
+}
+.file-input {
+    display: none;
+  }
+  
+  /* Style the button to look like a normal button */
+  .file-input-trigger {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .file-input-trigger:hover {
+    background-color: #0056b3;
+  }
+.choosefile{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.uploadpost{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.5px solid lightgrey;
+    
+    padding-left: 5px;
+    border-radius: 10px;
+    background-color: #C4B0E2;
+    font-weight: 700;
+    cursor: pointer;
+    color: white;
+}
+.uploadpost >p{
+    margin-top: -3px;
+}
+.upload{
+    border: none;
+    background-color: #C4B0E2;
+    cursor: pointer;
+    color: white;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.chooseFile{
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-evenly;
+}
+.chooseFile >p{
+    padding: 5px;
+    color: grey;
+}

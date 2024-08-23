@@ -1,0 +1,42 @@
+.Post{
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.Post_header{
+    display: flex;
+    margin-bottom: 10px;
+}
+.Post_body{
+    overflow-wrap: anywhere;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.Post_info{
+    margin-left: 10px;
+}
+.Post_info > p{
+    font-size: 12px;
+    color: grey;
+    margin-bottom: 20px;
+}
+.Post_info > h2{
+    font-size: 15px;
+}
+.Post_buttons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding: 10px;
+}
+.Post_body > img {
+    display: block;
+    max-width: 100%;
+    max-height: 300px; /* Ensures the image doesn't exceed the set height */
+    width: auto;
+    height: auto;
+    margin: 0 auto; /* Centers the image horizontally */
+    object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
+    background-color: whitesmoke;
+}

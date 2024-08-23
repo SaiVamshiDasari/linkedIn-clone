@@ -1,0 +1,16 @@
+.inputOptons{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.inputOptons > h4{
+    margin-left: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: grey;
+    
+}
+.inputOptons > h4:hover{
+    color: black;
+}
